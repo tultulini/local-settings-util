@@ -14,7 +14,7 @@ in your terminal of choice under the project directory run:
         
 then after logged in run:
   
-    .\get-functionapp-properties.bat myFunction-AF myresourcegroup
+    .\get-functionapp-properties.bat myFunctionApp myresourcegroup
 
 you should find at the end of the process in the output directory the local.settings.json
 
