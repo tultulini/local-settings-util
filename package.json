@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "local-settings-generator",
+  "version": "1.0.0",
+  "description": "extract local settings from azure",
+  "main": "src/generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --es-module-specifier-resolution=node src/generate.js",
+    "build:dev": "babel src -d build --source-maps --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
