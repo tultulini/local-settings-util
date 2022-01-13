@@ -17,3 +17,6 @@ then after logged in run:
     .\get-functionapp-properties.bat myFunction-AF myresourcegroup
 
 you should find at the end of the process in the output directory the local.settings.json
+
+## P.S
+This project was built to run on  windows but would probably run with little effort on other OS
